@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.iaditya.testng</groupId>
-  <artifactId>testng-redisprovider</artifactId>
+  <artifactId>testng-excelprovider</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>testng-redisprovider</name>
+  <name>testng-excelprovider</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -26,22 +26,6 @@
 	  <artifactId>poi-ooxml</artifactId>
 	  <version>3.15</version>
 	</dependency>
-	<dependency>
-	    <groupId>com.github.kstyrc</groupId>
-	    <artifactId>embedded-redis</artifactId>
-	    <version>0.6</version>
-	</dependency>
-	<dependency>
-	    <groupId>redis.clients</groupId>
-	    <artifactId>jedis</artifactId>
-	    <version>2.9.0</version>
-	    <scope>compile</scope>
-	</dependency>
-	<dependency>
-	    <groupId>io.vertx</groupId>
-	    <artifactId>vertx-redis-client</artifactId>
-	    <version>3.4.0</version>
-	</dependency>	
 	<dependency>
 		<groupId>org.testng</groupId>
 		<artifactId>testng</artifactId>
