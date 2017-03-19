@@ -68,7 +68,6 @@ public class NewTest {
 	  int columns = 0;
 	  
       try {
-
           FileInputStream excelFile = new FileInputStream(new File("src/test/resources/ExcelTestData.xlsx"));
           workbook = new XSSFWorkbook(excelFile);
           Sheet sheet = workbook.getSheetAt(0);
