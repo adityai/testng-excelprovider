@@ -102,6 +102,9 @@ public class NewTest {
       }
   }
 
+  /**
+   * AfterSuite method to close the Excel file
+   */
   @AfterSuite
   private void closeExcel() {
 	  try {
@@ -113,6 +116,11 @@ public class NewTest {
 	  
   }
 
+  /**
+   * DataProvider loaded from test data present in the Excel file
+   * @param method
+   * @return
+   */
   @DataProvider(name="excelDataProvider")
   private Object[][] getData(Method method) {
 	  Object[][] data = null;
